@@ -77,6 +77,12 @@ a {
     padding: 0;
 }
 
+#sec-services > div.sec-services-content > div.sec-services-content-right.slide-in-fwd-right.slide-in-fwd-visible > p:nth-child(6) > a {
+    padding : 0;
+    color: black;
+    background-color: greenyellow;    
+}
+
 a i {
    padding: 0.65em; 
 }

@@ -488,7 +488,7 @@ section {
 
 .sec-competences-content-right ul li {
     margin: 1em auto;
-    border: 1px solid black;  
+    /*border: 1px solid black; */ 
     width: 80%;
 }
 

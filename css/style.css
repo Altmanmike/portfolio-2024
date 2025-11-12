@@ -62,9 +62,7 @@ table {
     box-sizing: border-box;
 }
 
-html {
-	/*background: rgb(255,255,255);*/
-	/*font-size: 62.5%;*/ 	
+html { 	
 	font-family: 'Oswald', Verdana, sans-serif; /* 'Roboto', 'Montserrat', 'Turret Road', 'Oswald', 'Josefin Sans', 'Teko', 'Righteous', 'Prompt', 'Orbitron', 'Lexend Peta', 'Cinzel', 'Concert One', 'Russo One' */
     color: black;
     margin: 0 auto;
@@ -295,8 +293,7 @@ hr.grad {
 }
 .bg-services {
     margin: 0 auto;
-    padding: 4.25em;
-    /*height: 300px;*/
+    padding: 4.25em;    
     background-color: white;    
     background-image: url(../images/bureau-vue1.jpg);
     background-size: cover;
@@ -312,6 +309,7 @@ hr.grad {
 .bg-services q {    
     font-size: 3em;
 }
+
 .bg-services h3 {    
     font-size: 2em;
     padding-top: 0.8em;
@@ -320,8 +318,7 @@ hr.grad {
 
 .bg-competences {
     margin: 0 auto;    
-    padding: 4em 1em;
-    /*height: 300px;*/
+    padding: 4em 1em;   
     background-color: white;    
     background-image: url(../images/bg-code.jpg);
     background-size: cover;
@@ -341,8 +338,7 @@ hr.grad {
 
 .bg-projets {
     margin: 0 auto;
-    padding: 4em 1em;
-    /*height: 300px;*/
+    padding: 4em 1em;    
     background-color: white;    
     background-image: url(../images/bg-tarif.jpg);
     background-size: cover;
@@ -361,8 +357,7 @@ hr.grad {
 
 .bg-tarifs {
     margin-top: 0 auto;
-    padding: 4em 1em;
-    /*height: 200px;*/
+    padding: 4em 1em;    
     background-color: white;    
     background-image: url(../images/mobil-vue1.jpg);
     background-size: cover;
@@ -374,6 +369,7 @@ hr.grad {
     color: white;
     text-shadow: 4px 2px 8px black;
 }
+
 .bg-tarifs h3 {    
     font-size: 3em;    
 }
@@ -398,12 +394,9 @@ hr.grad {
     margin: 0px auto;
     text-align: center;
     width: 80%;
-    /*width: 60%;*/
-    /*height: 550px;
-    padding: 12em 0; */
     height: auto;
-    /*padding-top: 5em;*/
 }    
+
 .welcome-face {
     margin-top: 10em;
     width: 250px;
@@ -411,12 +404,15 @@ hr.grad {
     border: 4px solid #ddd;
     border-radius: 50%;        
 }
+
 .welcome-title1 {
     font-size: 2.5em;
 }
+
 .welcome-title2 {
     font-size: 2em;
 }
+
 .welcome-title3 {
     font-size: 1.5em;
 }
@@ -424,8 +420,7 @@ hr.grad {
 /* ---------- SECTION ---------- */
 /* ---------------------------- */
 
-section {        
-   /*margin: 0 10em;*/
+section {
     margin: 0 auto;
     width: 80%;
     height: auto;
@@ -434,12 +429,8 @@ section {
     padding-bottom: 6em;
 }
 
-
 /* ---------- SERVICES --------- */
 /* ---------------------------- */
-
-#sec-services {
-}
 
 .sec-services-content {
     font-size: 1.4em;
@@ -448,18 +439,13 @@ section {
 .sec-services-content-left {
     text-align: left;    
 }
-.sec-services-content-middle {   
-}
+
 .sec-services-content-right {
     text-align: right;    
 }
 
-
 /* -------- COMPETENCES -------- */
 /* ---------------------------- */
-
-#sec-competences {
-}
 
 .sec-competences-content {
     display: block;    
@@ -469,32 +455,37 @@ section {
     text-align: center;
     width: 100%; 
 }
+
 .sec-competences-content-middle {
     width: 100%;
 }
+
 .sec-competences-content-right {
     text-align: center;
     width: 100%;
 }
+
 .sec-competences-content-middle img {
     width: 75%;
 }
+
 .sec-competences-content-left ul li {
     margin: 1em auto;
     padding: 0em 2em;
 }
+
 .sec-competences-content-left ul li h3 {
     margin: 0.5em auto;
     font-weight: bold;
 }
+
 .sec-competences-content-left ul li p {
     margin: 0.3em auto;
     padding: 0 0 0 1.5em;
 }
 
 .sec-competences-content-right ul li {
-    margin: 1em auto;
-    /*border: 1px solid black; */ 
+    margin: 1em auto;    
     width: 80%;
 }
 
@@ -502,40 +493,42 @@ section {
     background-color: lightgrey;
     width: 100%;
 }
-/*
-.sec-competences-content-right ul li div div {
-    background-color: deepskyblue;
-    width: 70%;    
-}
-*/
+
 .sec-competences-content-right ul li div div.html {
     background-color: deepskyblue;
     width: 90%;    
 }
+
 .sec-competences-content-right ul li div div.css {
     background-color: deepskyblue;
     width: 90%;    
 }
+
 .sec-competences-content-right ul li div div.php {
     background-color: deepskyblue;
     width: 80%;    
 }
+
 .sec-competences-content-right ul li div div.mysql {
     background-color: deepskyblue;
     width: 78%;    
 }
+
 .sec-competences-content-right ul li div div.js {
     background-color: deepskyblue;
     width: 75%;    
 }
+
 .sec-competences-content-right ul li div div.symfony {
     background-color: deepskyblue;
     width: 70%;    
 }
+
 .sec-competences-content-right ul li div div.bootstrap {
     background-color: deepskyblue;
     width: 85%;    
 }
+
 .sec-competences-content-right ul li div div.git {
     background-color: deepskyblue;
     width: 83%;    
@@ -551,10 +544,6 @@ section {
 
 /* ---------- EXPERIENCES --------- */
 /* ------------------------------- */
-
-#sec-experiences {
-    
-}
 
 .sec-experience {
     display: block;     
@@ -613,6 +602,7 @@ ul.sec-experience-timeline > li:before, .timeline > li:after {
 .sec-experience-timeline-content-container {   
     float: none;    
 }
+
 .sec-experience-timeline-content-container-inverted {    
     float: none;    
 }
@@ -624,10 +614,6 @@ ul.sec-experience-timeline > li:before, .timeline > li:after {
     background: #ddd;
     margin-bottom: 3em;
     border-radius: 20%;
-}
-
-.sec-experience-timeline-title {
-   
 }
 
 .sec-experience-timeline-title h3 {
@@ -645,29 +631,11 @@ ul.sec-experience-timeline > li:before, .timeline > li:after {
 }
 
 
-
-
 /* ---------- EDUCATION --------- */
 /* ------------------------------- */
 
-#sec-education {
-    
-}
-
 .sec-education {
     display: block; 
-}
-
-.sec-education-title {
-    
-}
-
-.sec-education-row {
-    
-}
-
-.sec-education-col {
-    
 }
 
 .sec-education-education-content {
@@ -703,10 +671,6 @@ ul.sec-experience-timeline > li:before, .timeline > li:after {
 /* ---------- PROJETS --------- */
 /* ---------------------------- */
 
-#sec-projets {
-    /*height: 550px;*/
-}
-
 #sec-projets img {
     width: 100%;
 }
@@ -716,75 +680,89 @@ ul.sec-experience-timeline > li:before, .timeline > li:after {
 }
 
 .sec-projets-content-left {
-    text-align: left;
-    /*width: 22%;*/ 
+    text-align: left;    
 }
+
 .sec-projets-content-left p {
     line-height: 1.25em;
     padding-bottom: 1em;
 }
 
-.sec-projets-content-middle {
-    /*width: 50%;*/
-}
 .sec-projets-content-right {
-    text-align: right;
-    /*width: 28%;*/
+    text-align: right;    
 }
 
 .sec-projets-foot h2 {
     padding: 1.5em 0 0.5em 0;
 }
 
+.badge-app {
+    color: aqua;
+    font-size: 0.7em;
+    background: black;
+    border-radius: 8px;
+    padding: 1px 10px;
+}
+
+.badge-mini {
+    color: yellow;
+    font-size: 0.7em;
+    background: black;
+    border-radius: 8px;
+    padding: 1px 10px;
+}
+
 
 /* -------- PORTFOLIO --------- */
 /* ---------------------------- */
 
-#sec-portfolio {}
-.sec-portfolio-container {}
-.sec-portfolio-title {}
-.sec-portfolio-row {}
+#sec-portfolio img {
+    width: 100%;
+    object-fit:contain;
+    max-width:600px;
+    margin-bottom:15px;
+}
+
+.sec-portfolio-row {
+    margin: 0 0 20px 0;
+}
+
 .sec-portfolio-project {
     margin: 2em auto;
 }
 
-.sec-portfolio-project h2 {
-    
-}
 .sec-portfolio-project h3 {
    margin: 2em 0; 
 }
-.sec-portfolio-project iframe { 
-    width: 255px;
-    height: 155px; 
-    border: 5px solid black;
-    box-shadow: 2px 2px 1px cyan;
+
+.card {
+    max-width: 700px;
+    border-radius: 15px;
+    background: whitesmoke;
+    margin: auto;
+    padding: 15px;    
+    box-shadow: 2px 2px 5px gray;
 }
 
 
 /* ----------- TARIFS ---------- */
 /* ---------------------------- */
 
-#sec-tarifs {
-    /*height: 800px;*/
-}
-
 .sec-tarifs-content {
     display: block;
 }
 
 .sec-tarifs-content-left {
-    text-align: left;
-    /*width: 30%;*/ 
+    text-align: left;     
 }
+
 .sec-tarifs-content-middle {
-    text-align: left;
-   /* width: 30%;*/
+    text-align: left;  
     padding-top: 2em;
 }
+
 .sec-tarifs-content-right {
-    text-align: left;
-    /*width: 30%;*/
+    text-align: left;   
     padding-top: 2em;
 }
 
@@ -823,10 +801,6 @@ ul.sec-experience-timeline > li:before, .timeline > li:after {
 /* ---------- OBJECTIF --------- */
 /* ---------------------------- */
 
-#sec-obj {
-    /*height: 500px;*/
-}
-
 #sec-obj img {
     width: 100%;
     box-shadow: 1px 1px 3px dodgerblue;
@@ -837,15 +811,11 @@ ul.sec-experience-timeline > li:before, .timeline > li:after {
 }
 
 .sec-obj-content-left {
-    text-align: left;
-    /*width: 40%; */
+    text-align: left;   
 }
-.sec-obj-content-middle {
-   /* width: 19%;*/
-}
+
 .sec-obj-content-right {
-    text-align: right;
-    /*width: 40%;*/
+    text-align: right;   
 }
 
 .sec-obj-final {
@@ -854,6 +824,7 @@ ul.sec-experience-timeline > li:before, .timeline > li:after {
     width: 100%;
     display: block;    
 }
+
 .sec-obj-final div {
     padding: 1em;
 }
@@ -866,34 +837,16 @@ ul.sec-experience-timeline > li:before, .timeline > li:after {
 /* ---------- CONTACT ---------- */
 /* ---------------------------- */
 
-#sec-contact {
-   /*height: 500px;*/
-}
-
 .sec-contact-content {
     display: block;
 }
 
-.sec-contact-content-form {   
-    /*width: 83%;*/
-    /*padding-right: 2em;*/
+.sec-contact-content-form {
     text-align: center;
-}
-
-.form-contact {
-   /*margin-left: 2em;*/   
 }
 
 .form-contact i {
     padding: 0.45em;   
-}
-
-.form-contact-textarea {
-    /*padding-left: 2em;*/
-}
-
-.form-contact-submit {    
-    /*padding-left: 2em;*/
 }
     
 .sec-contact-content-pic {
@@ -909,8 +862,6 @@ ul.sec-experience-timeline > li:before, .timeline > li:after {
 /* *********************************************** */
 /* ******************* GRAFIKART ***************** */
 /* *********************************************** */
-
-
 
 [class*="slide-in-fwd-"] {
     opacity: 0;
@@ -928,12 +879,15 @@ ul.sec-experience-timeline > li:before, .timeline > li:after {
 .slide-in-fwd-top {
     transition-delay: 0.1s;
 }
+
 .slide-in-fwd-center {
     transition-delay: 0.1s;
 }
+
 .slide-in-fwd-left {
     transition-delay: 0.2s;
 }
+
 .slide-in-fwd-right {
     transition-delay: 0.3s;
 }
@@ -950,7 +904,6 @@ ul.sec-experience-timeline > li:before, .timeline > li:after {
 	-webkit-animation: slide-in-fwd-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-in-fwd-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-
 
 @-webkit-keyframes slide-in-fwd-title {
   0% {
@@ -979,7 +932,6 @@ ul.sec-experience-timeline > li:before, .timeline > li:after {
 }
 
 
-
 /* ---------------------------------------------------------- */
 /* ----------------------- FOOTER --------------------------- */
 /* ---------------------------------------------------------- */
@@ -994,7 +946,11 @@ footer a {
 }
 
 footer h1, footer h2 {
-   font-size: initial; 
+   font-size: initial;    
+}
+
+footer h2 {
+   color: deepskyblue;
 }
 
 #ft-top {
@@ -1048,10 +1004,11 @@ footer h1, footer h2 {
 .ft-bot-cc {
     width: 80%;
     text-align: center;    
-}    
+}  
 
-
-
+.ft-bot-cc h2 {
+    color: grey;
+}
 
 
 /* ---------------------------------------------------------------------------------------------------------------------------------- */
@@ -1106,7 +1063,6 @@ footer h1, footer h2 {
 }
 
 
-
 /* ---------------------------------------------------------- */
 /* ---------------------- TAB VERSION ----------------------- */
 /* ---------------------------------------------------------- */
@@ -1132,10 +1088,7 @@ footer h1, footer h2 {
     } 
     
     section {
-        /*width: 60%;*/
-        /*height: 500px;*/ /* ESSAYER ICI AUSSI AUTO HEIGHT */ 
         height: auto;
-        /*padding: 2em 0;*/
     }
     
     /* NAV MENU 768 px */  
@@ -1184,17 +1137,13 @@ footer h1, footer h2 {
     .bg-tarifs {
          padding: 4.25em; 
     }
-    .bg-services q, .bg-comptences q, .bg-projets q, .bg-tarifs h3, {    
+    .bg-services q, .bg-comptences q, .bg-projets q, .bg-tarifs h3 {    
         font-size: 4em;    
     }
 
     
     /* WELCOME 768 px */
-    
-    #welcome {
-        /*padding: 3em 0;*/
-    }
-    
+        
     .welcome-face {
         margin-top: 7em;
         width: 350px;
@@ -1215,8 +1164,7 @@ footer h1, footer h2 {
     
     /* SECTION SERVICES 768 px */
     
-    #sec-services {
-        /*height: 600px;*/ /* ESSAYER ICI AUSSI AUTO HEIGHT */
+    #sec-services {       
         height: auto;
     }
     
@@ -1230,14 +1178,12 @@ footer h1, footer h2 {
     
     /* SECTION COMPETENCES 768 px */
     
-    #sec-competences {
-        /*height: 800px*/; /* ESSAYER ICI AUSSI AUTO HEIGHT */  
+    #sec-competences {          
         height: auto;
     }
 
     .sec-competences-content {
-        display: flex;
-        /*align-items: center;*/
+        display: flex;       
         padding-top: 2em;
     }
     
@@ -1373,16 +1319,10 @@ footer h1, footer h2 {
     
     
     /* SECTION PORTFOLIO 768 px */
-    
-    .sec-portfolio-project iframe { 
-        width: 560px;
-        height: 315px;
-    }
-    
+        
     /* SECTION OBJECTIF 768 px */
     
-    #sec-obj {
-        /*height: 500px;*/ /* ESSAYER ICI AUSSI AUTO HEIGHT */
+    #sec-obj {        
         height: auto;
     }
     
@@ -1394,10 +1334,12 @@ footer h1, footer h2 {
     
     .sec-obj-content-left {        
         width: 40%; 
-    }    
+    }  
+
     .sec-obj-content-middle {
         width: 19%;
-    }    
+    } 
+
     .sec-obj-content-right {        
         width: 40%;
     }
@@ -1416,8 +1358,7 @@ footer h1, footer h2 {
     
     /* SECTION CONTACT 768 px */
     
-    #sec-contact {
-        /*height: 500px;*/ /* ESSAYER ICI AUSSI AUTO HEIGHT */
+    #sec-contact {        
         height: auto;
     }
     
@@ -1433,7 +1374,6 @@ footer h1, footer h2 {
 
     .sec-contact-content-form {
         text-align: right;
-        /*width: 83%;*/
     }
 
     .sec-contact-content-pic {
@@ -1464,15 +1404,14 @@ footer h1, footer h2 {
     /* FOOTER 768 px */
     
     #ft-mid {
-        display: block; /*inline-flex before*/    
+        display: block;   
         justify-content: center;
         align-items: center;
     }
     
     .ft-mid-res {
         text-align: left;
-        width: 40%;
-        /*margin: 0;*/
+        width: 40%;        
     }
     
     .ft-mid-coo {
@@ -1539,18 +1478,11 @@ footer h1, footer h2 {
     }
     
     
-    /* SECTION PORTFOLIO 1024 px */
-    
-    .sec-portfolio-project iframe {
-        width: 755px;
-        height: 450px;
-    }
-    
+    /* SECTION PORTFOLIO 1024 px */ 
     
     /* SECTION TARIFS 1024 px */
     
-    #sec-tarifs {
-        /*height: 800px;*/ /* ESSAYER ICI AUSSI AUTO HEIGHT */
+    #sec-tarifs {        
         height: auto;
     } 
     
